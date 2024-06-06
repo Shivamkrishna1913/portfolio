@@ -3,13 +3,13 @@ import React from "react";
 import logo from "./logo-color.png";
 const Navbar = () => {
   return (
-    <div className="opacity-1   p-4 fixed w-full   top-0  ">
+    <div className="     p-5 fixed w-full      ">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <img src={logo} alt="logo" className="h-10 w-10 rounded-full" />
+          <img src={logo} alt="logo" className="h-12 w-12 rounded-full" />
         </div>
 
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-6">
           <li>
             <a className="text-gray-300 hover:text-white  " href="#home">
               Home

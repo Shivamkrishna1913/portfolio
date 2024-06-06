@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 const App = () => {
   return (
-    <div className="App">
+    <div className="mt-0">
       <Navbar />
       <Home />
       <About />

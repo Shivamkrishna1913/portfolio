@@ -2,8 +2,11 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div id="AboutMe" className="section">
-      <div className="  bg-bg2 bg-cover bg-no-repeat font-roboto max-h-max  flex text-white place-content-center">
+    <div
+      id="AboutMe"
+      className="section min-h-screen bg-bg2 bg-cover bg-no-repeat"
+    >
+      <div className="   font-roboto flex text-white place-content-center">
         <div className="mt-20   w-5/6  h-full rounded-3xl p-5">
           <img
             src="my-image.jpg"

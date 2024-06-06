@@ -3,9 +3,12 @@ import pic from "./pic.jpg";
 import "../index.css";
 const Home = () => {
   return (
-    <div id="home" className="section">
-      <div className="  bg-bg1 bg-cover bg-no-repeat sm:min-h-screen xl:max-h-screen border-2 font-roboto  m-auto justify-items-center items-center  ">
-        <div className=" mt-20  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2   gap-1 p-2   m-auto">
+    <div
+      id="home"
+      className="section h-screen w-screen  bg-bg1 bg-cover bg-no-repeat  "
+    >
+      <div className="  p-10 ">
+        <div className=" mt-6 font-roboto  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2   gap-1 p-2   m-auto">
           <div className="   m-auto ">
             <div className="mt-6 text-white xl:text-5xl lg:text-3xl md:text-3xl sm:text-2xl font-normal">
               Namasté,
