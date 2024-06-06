@@ -17,14 +17,14 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="section h-screen w-screen bg-bg3 bg-cover bg-no-repeat"
+      className="section max-h-max w-screen bg-bg3 bg-cover bg-no-repeat"
     >
       <div className="  flex  place-content-center  ">
         <span className="mt-5 text-sky-400 font-roboto font-medium text-2xl">
           My skills
         </span>
       </div>
-      <div className=" mt-6 space-x-1    h-screen w-screen grid grid-cols-6 gap-0 p-4   ml-14    ">
+      <div className=" mt-6 space-x-1    h-screen w-screen grid grid-cols-5 gap-0 p-4   ml-14    ">
         <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
           <div className="m-auto">
             <img src={cpp} alt="" className="h-20 w-20 rounded-md " />
