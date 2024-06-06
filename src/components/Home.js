@@ -26,7 +26,7 @@ const Home = () => {
               experience in creating modern websites.
             </div>
           </div>
-          <div className=" m-auto  mt-16 mb-16 ">
+          <div className=" m-auto  mt-16 mb-4 ">
             <img
               src={pic}
               alt="pic"
