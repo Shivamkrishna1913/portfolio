@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.xl-home-img {
+    height: 400px;
+    width: 500px;
+}
+
+.sm-home-img {
+    height: 180px;
+    width: 400px;
+
+}
