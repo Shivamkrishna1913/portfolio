@@ -42,7 +42,7 @@ const Skills = () => {
         <div className="mx-auto w-32 h-1 bg-gray-400 rounded-full"></div>
       </div>
 
-      <div className="mt-6 h-screen grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-8">
+      <div className="mt-6 max-h-max grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-8 pb-8">
         {skill.map((skill, index) => (
           <div key={index} className="flex justify-center">
             <div className="h-28 w-28 flex items-center justify-center rounded-lg border-2  ">
