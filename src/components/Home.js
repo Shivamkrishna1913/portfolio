@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="section h-screen w-screen  bg-bg1 bg-cover bg-no-repeat  "
+      className="section min-h-screen w-screen  bg-bg1 bg-cover bg-no-repeat  "
     >
       <div className="  p-10 ">
         <div className=" mt-6 font-roboto  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2   gap-1 p-2   m-auto">
