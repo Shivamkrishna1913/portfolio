@@ -14,87 +14,42 @@ import reactrouter from "../skill_image/reactrouter.png";
 import socket from "../skill_image/socket.webp";
 import tailwind from "../skill_image/tailwind.png";
 const Skills = () => {
+  const skill = [
+    cpp,
+    dsa,
+    python,
+    html,
+    css,
+    js,
+    react,
+    nodejs,
+    expressjs,
+    mongodb,
+    socket,
+    tailwind,
+    bootstrap,
+    reactrouter,
+  ];
   return (
     <div
       id="skills"
       className="section max-h-max w-screen bg-bg3 bg-cover bg-no-repeat"
     >
-      <div className="  flex  place-content-center  ">
-        <span className="mt-5 text-sky-400 font-roboto font-medium text-2xl">
-          My skills
-        </span>
+      <div className="  py-12 text-center">
+        <h2 className="text-white font-roboto  text-4xl font-semibold mb-4">
+          My Skills
+        </h2>
+        <div className="mx-auto w-32 h-1 bg-gray-400 rounded-full"></div>
       </div>
-      <div className=" mt-6 space-x-1    h-screen w-screen grid grid-cols-5 gap-0 p-4   ml-14    ">
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={cpp} alt="" className="h-20 w-20 rounded-md " />
+
+      <div className="mt-6 h-screen grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-8">
+        {skill.map((skill, index) => (
+          <div key={index} className="flex justify-center">
+            <div className="h-28 w-28 flex items-center justify-center rounded-lg border-2  ">
+              <img src={skill} alt="" className="h-20 w-20 rounded-md" />
+            </div>
           </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={dsa} alt="" className="h-20 w-20 rounded-md " />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={python} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={html} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={css} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={js} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={react} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={nodejs} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={expressjs} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={mongodb} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={socket} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={tailwind} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={bootstrap} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
-        <div className="h-28 w-28 flex    rounded-md border-2 border-dashed">
-          <div className="m-auto">
-            <img src={reactrouter} alt="" className="h-20 w-20 rounded-md" />
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
