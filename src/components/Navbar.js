@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="text-gray-300 hover:text-white " href="#footer">
+            <a className="text-gray-300 hover:text-white " href="#contactme">
               Contact Me
             </a>
           </li>

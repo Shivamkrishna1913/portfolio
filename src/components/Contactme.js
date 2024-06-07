@@ -1,9 +1,9 @@
 import React from "react";
 
-const Footer = () => {
+const Contactme = () => {
   return (
     <div
-      id="footer"
+      id="contactme"
       className="section min-h-screen w-screen bg-bg4 bg-cover bg-no-repeat flex items-center justify-center"
     >
       <div className="    md:px-24 md:p-10  p-2  rounded-lg md:border-2   md:border-black     ">
@@ -57,4 +57,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contactme;
