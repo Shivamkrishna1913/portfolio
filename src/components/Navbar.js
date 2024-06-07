@@ -4,14 +4,14 @@ import logo from "./logo-color.png";
 const Navbar = () => {
   return (
     <div className="     p-5 fixed w-full      ">
-      <div className="container mx-auto flex md:space-x-6  space-x-2 justify-between items-center">
+      <div className="container mx-auto flex md:space-x-6  space-x-1 justify-between items-center">
         <div>
           <a className="" href="#home">
             <img src={logo} alt="logo" className="h-12 w-12 rounded-full" />
           </a>
         </div>
 
-        <ul className="flex md:space-x-6  space-x-2">
+        <ul className="flex md:space-x-6  space-x-1">
           <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg ">
             <a className="text-gray-300   " href="#home">
               Home
