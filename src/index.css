@@ -17,3 +17,21 @@ body {
     width: 400px;
 
 }
+
+.sm-form {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: #ffffff;
+}
+
+.md-form {
+    padding: 2rem 3.5rem;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    color: #1a202c;
+}
