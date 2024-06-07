@@ -33,11 +33,11 @@ const Project = () => {
               <div className="text-sm text-slate-300 font-sans">HTML | CSS</div>
             </div>
             <div className="   m-auto w-1/5">
-              <button className="bg-sky-500 px-4 py-1 rounded-3xl   ">
+              <button className="bg-sky-500 px-4 py-1 rounded-3xl  transition-transform transform hover:scale-125 ">
                 <a href="https://shivam-facebook.vercel.app/" target="_blank">
                   <div className="flex">
                     <div className="font-medium">Visit</div>
-                    <div className="pt-1">
+                    <div className="pt-1 transition-transform transform hover:scale-125">
                       <LuArrowUpRightFromCircle />
                     </div>
                   </div>
@@ -71,14 +71,14 @@ const Project = () => {
               </div>
             </div>
             <div className="   m-auto w-1/5">
-              <button className="bg-[#478778] px-4 py-1 rounded-3xl   ">
+              <button className="bg-[#478778] px-4 py-1 rounded-3xl  transition-transform transform hover:scale-125 ">
                 <a
                   href="https://chatterbox-a-mern-chat-app.onrender.com/"
                   target="_blank"
                 >
                   <div className="flex">
                     <div className="font-medium">Visit</div>
-                    <div className="pt-1">
+                    <div className="pt-1 transition-transform transform hover:scale-125">
                       <LuArrowUpRightFromCircle />
                     </div>
                   </div>

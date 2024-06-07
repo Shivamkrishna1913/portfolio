@@ -46,7 +46,7 @@ const Contactme = () => {
           <div className="mt-4 flex justify-center">
             <button
               type="submit"
-              className="   bg-stone-700 px-8 py-3 rounded-lg w-full text-gray-300 hover:bg-gray-800 font-semibold text-3xl font-roboto"
+              className="   bg-stone-700 px-8 py-3 rounded-lg w-full text-gray-300 hover:bg-gray-800 font-semibold text-3xl font-roboto transition-transform transform hover:scale-105"
             >
               Send
             </button>
