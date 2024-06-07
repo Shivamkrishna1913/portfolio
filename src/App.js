@@ -5,6 +5,7 @@ import About from "./components/AboutMe";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="mt-0">
@@ -14,6 +15,7 @@ const App = () => {
       <Skills />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 };
