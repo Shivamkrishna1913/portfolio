@@ -86,6 +86,7 @@ const Project = () => {
               </button>
             </div>
           </div>
+          {/* <hr className="bg-[#5F9EA0] h-1 decoration-transparent" /> */}
 
           <div className="ml-5 mt-5 mb-5">
             <p className="text-base text-slate-300">

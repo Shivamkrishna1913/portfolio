@@ -6,32 +6,34 @@ const Navbar = () => {
     <div className="     p-5 fixed w-full      ">
       <div className="container mx-auto flex md:space-x-6  space-x-2 justify-between items-center">
         <div>
-          <img src={logo} alt="logo" className="h-12 w-12 rounded-full" />
+          <a className="" href="#home">
+            <img src={logo} alt="logo" className="h-12 w-12 rounded-full" />
+          </a>
         </div>
 
         <ul className="flex md:space-x-6  space-x-2">
-          <li>
-            <a className="text-gray-300 hover:text-white  " href="#home">
+          <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg ">
+            <a className="text-gray-300   " href="#home">
               Home
             </a>
           </li>
-          <li>
-            <a className="text-gray-300 hover:text-white  " href="#AboutMe">
+          <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg">
+            <a className="text-gray-300   " href="#AboutMe">
               About Me
             </a>
           </li>
-          <li>
-            <a className="text-gray-300 hover:text-white  " href="#skills">
+          <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg">
+            <a className="text-gray-300  " href="#skills">
               Skills
             </a>
           </li>
-          <li>
-            <a className="text-gray-300 hover:text-white  " href="#projects">
+          <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg">
+            <a className="text-gray-300   " href="#projects">
               Projects
             </a>
           </li>
-          <li>
-            <a className="text-gray-300 hover:text-white " href="#contactme">
+          <li className="hover:bg-[#28607e] hover:text-white px-1 rounded-lg">
+            <a className="text-gray-300   " href="#contactme">
               Contact Me
             </a>
           </li>

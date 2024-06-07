@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div
       id="AboutMe"
-      className="section min-h-screen w-screen bg-[#9556cb] bg-cover bg-no-repeat"
+      className="section min-h-screen w-screen bg-bg1 bg-cover bg-no-repeat"
     >
       <div className="  py-12 text-center">
         <h2 className="text-white font-roboto  text-4xl font-semibold mb-4">
@@ -13,9 +13,9 @@ const AboutMe = () => {
         <div className="mx-auto w-32 h-1 bg-gray-400 rounded-full"></div>
       </div>
       <div className="   font-roboto flex text-white place-content-center">
-        <div className="mt-3   w-5/6  h-full rounded-3xl p-5 ">
+        <div className="mt-0   w-5/6  h-full rounded-3xl p-5 ">
           <div className="  ">
-            <div className="w-fit rounded-full m-auto border-2 border-[#592e8e] p-0">
+            <div className="w-fit rounded-full m-auto border-2 border-[#4e88fc] p-0">
               <img
                 src="my-image.jpg"
                 alt="shivam"
@@ -24,7 +24,7 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="mt-4 xl:w-5/6 lg:w-4/6 m-auto p-5 rounded-2xl text-lg text-[#d4d4d4] font-medium md:w-5/6 sm:11/12 bg-[#592e8e] font-serif shadow-2xl opacity-2 ">
+          <div className="mt-4 xl:w-5/6 lg:w-4/6 m-auto p-5 rounded-2xl text-lg text-[#d4d4d4] font-medium md:w-5/6 sm:11/12 bg-[#2c57ad] font-serif shadow-2xl opacity-2 ">
             <div className="m-auto  opacity-1  ">
               Hey there , i'm Shivam maurya 21-year-old coding enthusiast from
               India.
