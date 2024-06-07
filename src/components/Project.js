@@ -13,7 +13,13 @@ const Project = () => {
       id="projects"
       className="section w-screen bg-bg1 bg-cover bg-no-repeat font-roboto  "
     >
-      <div className=" md:h-screen max-h-max grid md:grid-cols-2 grid-rows-2  items-center pt-60 gap-10   md:pl-28  pl-5  md:pb-20  pb-4 ">
+      <div className="  md:py-12 py-6 text-center">
+        <h2 className="text-white font-roboto  text-4xl font-semibold mb-4">
+          My Projects
+        </h2>
+        <div className="mx-auto w-32 h-1 bg-gray-400 rounded-full"></div>
+      </div>
+      <div className=" md:h-screen max-h-max grid md:grid-cols-2 grid-rows-2  items-center  pt-28 md:pt-14 gap-10   md:pl-28  pl-5  md:pb-20  pb-4 ">
         <div className="border-2 border-white rounded-3xl h-96 w-96 bg-blue-900   ">
           {/*logo name/skill link */}
           <div className=" w-full flex  p-8     ">
