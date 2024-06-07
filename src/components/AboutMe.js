@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div
       id="AboutMe"
-      className="section min-h-screen bg-bg2 bg-cover bg-no-repeat"
+      className="section min-h-screen w-screen bg-bg2 bg-cover bg-no-repeat"
     >
       <div className="   font-roboto flex text-white place-content-center">
         <div className="mt-20   w-5/6  h-full rounded-3xl p-5">

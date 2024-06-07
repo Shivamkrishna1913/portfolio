@@ -7,6 +7,7 @@ module.exports = {
         bg2: "url('/src/components/bg2.jpg')",
         bg1: "url('/src/components/bg1.jpg')",
         bg3: "url('/src/components/bg3.jpg')",
+        bg4: "url('/src/components/bg4.jpg')",
       },
       fontFamily: {
         roboto: ["roboto mono"],
