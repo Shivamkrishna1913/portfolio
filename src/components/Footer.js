@@ -6,20 +6,20 @@ const Footer = () => {
       id="footer"
       className="section min-h-screen w-screen bg-bg4 bg-cover bg-no-repeat flex items-center justify-center"
     >
-      <div className="    md:px-24   sm:p-20  rounded-lg border-2  md:border-black sm:border-white    ">
+      <div className="    md:px-24 md:p-10  p-2  rounded-lg md:border-2   md:border-black     ">
         <div className=" w-full flex justify-center mb-4">
-          <span className=" font-roboto font-semibold text-5xl md:text-gray-900   sm:text-white">
+          <span className=" font-roboto font-semibold text-5xl md:text-gray-900    text-white">
             Contact Me
           </span>
         </div>
         <form
           action="#"
           method="POST"
-          className="md:text-gray-900  sm:text-white  border-2 md:m-0 sm:m-6 "
+          className="md:text-gray-900  sm:text-white   md:m-auto sm:m-6 "
         >
           <div className="   ">
             <input
-              className="w-96 h-10  px-3   appearance-none border md:border-black sm:border-white focus:outline-none   rounded-lg bg-white  bg-opacity-0"
+              className=" w-96  h-10 px-3 md:text-gray-900  sm:text-white  appearance-none border md:border-black sm:border-white focus:outline-none   rounded-lg bg-white  bg-opacity-0"
               id="fullname"
               type="text"
               placeholder="Full Name"

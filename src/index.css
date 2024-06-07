@@ -35,3 +35,8 @@ body {
     border-color: black;
     color: #1a202c;
 }
+
+.sm-fullname {
+    height: 40px;
+    width: 200px;
+}
