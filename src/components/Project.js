@@ -13,7 +13,7 @@ const Project = () => {
       id="projects"
       className="section w-screen bg-bg1 bg-cover bg-no-repeat font-roboto  "
     >
-      <div className=" md:h-screen max-h-max grid md:grid-cols-2 grid-rows-2 items-center pt-60 gap-2    md:pl-28 pl-8 md:pb-20  pb-20 ">
+      <div className=" md:h-screen max-h-max grid md:grid-cols-2 grid-rows-2 items-center pt-60 gap-10   md:pl-28 px-6 md:pb-20  pb-0 ">
         <div className="border-2 border-white rounded-3xl h-96 w-96 bg-blue-900  ">
           {/*logo name/skill link */}
           <div className=" w-full flex  p-8     ">
