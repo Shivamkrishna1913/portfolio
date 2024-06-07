@@ -72,7 +72,10 @@ const Project = () => {
             </div>
             <div className="   m-auto w-1/5">
               <button className="bg-[#478778] px-4 py-1 rounded-3xl   ">
-                <a href="https://shivam-facebook.vercel.app/" target="_blank">
+                <a
+                  href="https://chatterbox-a-mern-chat-app.onrender.com/"
+                  target="_blank"
+                >
                   <div className="flex">
                     <div className="font-medium">Visit</div>
                     <div className="pt-1">
