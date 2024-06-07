@@ -6,7 +6,7 @@ const Footer = () => {
       id="footer"
       className="section min-h-screen w-screen bg-bg4 bg-cover bg-no-repeat flex items-center justify-center"
     >
-      <div className="  p-8   px-14 rounded-lg border-2  md:border-black sm:border-white   md:text-gray-900  sm:text-white ">
+      <div className="  md:p-8 sm:p-4  md:px-14 sm:px-4 rounded-lg border-2  md:border-black sm:border-white   md:text-gray-900  sm:text-white ">
         <div className=" w-full flex justify-center mb-4">
           <span className=" font-roboto font-semibold text-5xl">
             Contact Me
