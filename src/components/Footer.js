@@ -13,13 +13,12 @@ const Footer = () => {
           </span>
         </div>
         <form
-          action="#"
-          method="POST"
+          action="#home"
           className="md:text-gray-900  sm:text-white   md:m-auto sm:m-6 "
         >
           <div className="   ">
             <input
-              className=" w-96  h-10 px-3 md:text-gray-900   text-white  appearance-none border md:border-black sm:border-white focus:outline-none   rounded-lg bg-white  bg-opacity-0"
+              className=" w-96  h-10 px-3 md:text-gray-900   text-white  appearance-none border md:border-black sm:border-white focus:outline-none   rounded-lg bg-transparent autofill:bg-transparent autofill:text-white md:autofill:text-gray-900  "
               id="fullname"
               type="text"
               placeholder="Full Name"
@@ -28,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="  mt-4  ">
             <input
-              className="w-96 h-10 px-3 md:text-gray-900   text-white appearance-none border md:border-black sm:border-white  focus:outline-none   rounded-lg bg-white  bg-opacity-0"
+              className="w-96 h-10 px-3 md:text-gray-900   text-white appearance-none border md:border-black sm:border-white  focus:outline-none   rounded-lg   bg-transparent autofill:bg-transparent autofill:text-white md:autofill:text-gray-900 "
               id="email"
               type="email"
               placeholder="Email"
@@ -37,7 +36,7 @@ const Footer = () => {
           </div>
           <div className=" mt-4  ">
             <textarea
-              className="w-96 h-32 px-3 pt-2 md:text-gray-900   text-white  appearance-none border md:border-black sm:border-white  focus:outline-none   rounded-lg bg-white  bg-opacity-0"
+              className="w-96 h-32 px-3 pt-2 md:text-gray-900   text-white  appearance-none border md:border-black sm:border-white  focus:outline-none   rounded-lg bg-transparent  "
               id="message"
               placeholder="Message"
               required

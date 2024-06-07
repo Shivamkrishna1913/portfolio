@@ -7,7 +7,7 @@ const Home = () => {
       id="home"
       className="section max-h-min w-screen  bg-bg1 bg-cover bg-no-repeat  "
     >
-      <div className="  p-10 ">
+      <div className=" p-4 md:max-h-screen ">
         <div className=" mt-12 font-roboto  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2   gap-1 p-2   m-auto">
           <div className="   m-auto ">
             <div className="mt-6 text-white xl:text-5xl lg:text-3xl md:text-3xl sm:text-2xl font-normal">
